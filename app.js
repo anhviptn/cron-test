@@ -1,6 +1,5 @@
 const cron = require('node-cron');
 const axios = require('axios');
-var express = require('express');
 // ...
 
 // Schedule tasks to be run on the server.
