@@ -4,7 +4,7 @@ var express = require('express');
 // ...
 
 // Schedule tasks to be run on the server.
-var url = request.query.url;
+var url = 'https://mlike.vn';
 cron.schedule('*/1 * * * * *', function() {
     axios
         .get(url)
